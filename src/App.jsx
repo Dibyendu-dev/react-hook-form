@@ -1,11 +1,13 @@
 import "./App.css";
 import { LogInForm } from "./forms/LogInForm";
+import RegistrationForm from "./forms/RegistrationForm";
 
 function App() {
   return (
     <>
       <div className="flex justify-center items-center"> 
-        <LogInForm/>
+        {/* <LogInForm/> */}
+        <RegistrationForm/>
          </div>
     </>
   );
